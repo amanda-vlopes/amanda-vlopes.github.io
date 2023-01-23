@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2 {
+    font-family: Comfortaa;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(147,168,172);
+}
+
+#foto {
+    width: 20%;
+    border-radius: 50%;
+}
+
+h2, #foto, main p {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: row;
+    text-align: justify;
+}
+
+header {
+background-color: rgb(66, 75, 84);
+color: rgb(255, 255, 255);
+}
+
